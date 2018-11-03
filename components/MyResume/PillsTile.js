@@ -80,7 +80,11 @@ class PillsTile extends View {
   getBody = () => {
     var pillList = this.props.pillList.map((content)=>{
       return (
-        <Pills labelText={content} margin="4,4,4,4" padding="10,5,10,5"/>
+        <Pills 
+          labelText={content} 
+          margin="4,4,4,4" 
+          padding="10,5,10,5"
+          isNightMode={this.props.isNightMode}/>
       )
     })
     return (

@@ -126,6 +126,7 @@ class WorkExperienceTile extends View {
           title={content.title}
           subTitle={content.subTitle}
           description={content.description}
+          isNightMode={this.props.isNightMode}
           margin="0,10,0,0"
           width="match_parent"
         />

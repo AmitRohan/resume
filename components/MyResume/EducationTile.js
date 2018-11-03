@@ -103,7 +103,6 @@ class EducationTile extends View {
 
 
   getBody = () => {
-    
     var dateWithContentList = this.content.map((content)=>{
       return (
         <DateWithContent
@@ -111,6 +110,7 @@ class EducationTile extends View {
           title={content.title}
           subTitle={content.subTitle}
           description={content.description}
+          isNightMode={this.props.isNightMode}
           margin="0,10,0,0"
           width="match_parent"
         />

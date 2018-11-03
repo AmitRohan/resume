@@ -109,6 +109,7 @@ class AboutMeTile extends View {
         <LabelWithDescription
           labelText={content.label}
           description={content.description}
+          isNightMode={this.props.isNightMode}
           margin="0,10,0,0"
           width="match_parent"/>
       )
