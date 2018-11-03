@@ -27,6 +27,8 @@ class MyResumeScreen extends View {
     ]);
     this.shouldCacheScreen =true;
     // this.checkPrevLogin();
+
+    this.props.isNightMode = true;
     window.clearUser=this.clearUser
   }
 
@@ -96,7 +98,7 @@ render() {
           <NameTile
             padding="20,10,20,10"
             height="160"
-            isNightMode={false}
+            isNightMode={this.props.isNightMode}
           />
           <LinearLayout>
             <LinearLayout
@@ -105,12 +107,12 @@ render() {
               <EducationTile
                 padding="20,10,20,10"
                 width="match_parent" 
-                isNightMode={false}
+                isNightMode={this.props.isNightMode}
               />
                <WorkExperienceTile
                 padding="20,10,20,10"
                 width="match_parent" 
-                isNightMode={false}
+                isNightMode={this.props.isNightMode}
               />
             </LinearLayout>
             <LinearLayout
@@ -119,45 +121,45 @@ render() {
               <AboutMeTile
                 padding="20,10,20,10"
                 width="match_parent" 
-                isNightMode={false}
+                isNightMode={this.props.isNightMode}
               />
               <ObjectiveTile
                 padding="20,10,20,10"
                 width="match_parent"
-                isNightMode={false}
+                isNightMode={this.props.isNightMode}
               />
               <PillsTile
                 padding="20,10,20,10"
                 width="match_parent"
                 title="SKILLS"
                 pillList={["C++", "JAVA" , "SQL" , "HTML" , "CSS" , "JAVASCRIPT", "C#" , "HASKELL" , "PURESCRIPT"]}
-                isNightMode={false}
+                isNightMode={this.props.isNightMode}
               />
               <PillsTile
                 padding="20,10,20,10"
                 width="match_parent"
                 title="FRAMEWORKS"
                 pillList={["Node.js",".Net","Mystique","Presto","BootStrap","Electon","AngularJS","Material-UI","React","Unity"]}
-                isNightMode={false}
+                isNightMode={this.props.isNightMode}
               />
               <PillsTile
                 padding="20,10,20,10"
                 width="match_parent"
                 title="PLATFORMS"
                 pillList={["Android","Windows Mobile","Web","IOS","GIT"]}
-                isNightMode={false}
+                isNightMode={this.props.isNightMode}
               />
               <PillsTile
                 padding="20,10,20,10"
                 width="match_parent"
                 title="SOFTWARES USED"
                 pillList={["Sketch","Flinto","Blender","Photoshop","Google Suite","Office 365"]}
-                isNightMode={false}
+                isNightMode={this.props.isNightMode}
               />
               <ContactTile
                 padding="20,10,20,10"
                 width="match_parent"
-                isNightMode={false}
+                isNightMode={this.props.isNightMode}
               />
             </LinearLayout>
 
