@@ -25,11 +25,11 @@ class MyResumeScreen extends View {
       "leftColumn",
       "rightColumn"
     ]);
-    this.shouldCacheScreen =true;
-    // this.checkPrevLogin();
+    // this.shouldCacheScreen =true;
+    this.checkPrevSession();
 
     this.props.isNightMode = true;
-    window.clearUser=this.clearUser
+    window.clearData=this.clearData
   }
 
   onPop = () => {
@@ -43,26 +43,17 @@ class MyResumeScreen extends View {
     //setTimeout(this.afterRender(),100);
   }
 
-  clearUser = () => {
-    localStorage.setItem('username',"__failed");
-    localStorage.setItem('password',"__failed");
+  clearData = () => {
+    localStorage.setItem('nightMode',"__failed");
   }
 
-  checkPrevLogin = () => {
-    var username = localStorage.getItem('username');
-    var password = localStorage.getItem('password');
-    if (username && username!="__failed" && password && password!="__failed") {
-      // window.__LoadingPopUp.showLoading();
-      // window.__runDuiCallback({ action: "VALIDATE", username: username, password: password });
+  checkPrevSession = () => {
+    var isNightMode = localStorage.getItem('nightMode');
+    if (isNightMode && isNightMode!="__failed") {
+      window.__runDuiCallback({ action: "SET_NIGHT_MODE", nightMode: isNightMode});
       return;
     }
   }
-
-  handleSocialMedia = (ev) => {
-    var url = "https://bitbucket.org/account/password/reset/"
-    window.open(url,'popUpWindow','height=400,width=600,left=10,top=10,,scrollbars=yes,menubar=no');
-  }
-
   
   afterRender = () => {
 
@@ -85,6 +76,7 @@ class MyResumeScreen extends View {
 render() {
     this.layout = (
       <ScrollView
+        id={this.idSet.container}
         root="true"
         width="match_parent"
         height="match_parent">
