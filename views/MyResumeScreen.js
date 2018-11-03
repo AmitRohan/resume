@@ -25,21 +25,18 @@ class MyResumeScreen extends View {
       "leftColumn",
       "rightColumn"
     ]);
+    this.props.isNightMode = localStorage.getItem('nightMode') == "true" ? true : false
     // this.shouldCacheScreen =true;
-    this.checkPrevSession();
-
-    this.props.isNightMode = true;
-    window.clearData=this.clearData
+    // this.clearData();
+    window.toggleNightMode = this.toggleNightMode;
   }
 
   onPop = () => {
-    this.username = "";
-    this.password = "";
+    this.props.isNightMode = localStorage.getItem('nightMode') == "true" ? true : false
     Android.runInUI(
       this.animateView(),
       0
     );
-    window.__hook=this;
     //setTimeout(this.afterRender(),100);
   }
 
@@ -47,17 +44,17 @@ class MyResumeScreen extends View {
     localStorage.setItem('nightMode',"__failed");
   }
 
-  checkPrevSession = () => {
-    var isNightMode = localStorage.getItem('nightMode');
-    if (isNightMode && isNightMode!="__failed") {
-      window.__runDuiCallback({ action: "SET_NIGHT_MODE", nightMode: isNightMode});
-      return;
-    }
+  toggleNightMode = () => {
+    var isNightMode = ! (localStorage.getItem('nightMode') == "true" ? true : false)
+    localStorage.setItem('nightMode',isNightMode+"");
+    this.props.isNightMode=isNightMode;
+    this.replaceChild(this.idSet.container,this.getResumeContent().render(),0)
+    setTimeout(this.afterRender(),100);
+    // window.__runDuiCallback({ action: "NIGHT_MODE_TOGGLED" });
   }
   
   afterRender = () => {
 
-    var _this = this;
     JBridge.setWidth(this.idSet.leftColumn,"70%")
     JBridge.setWidth(this.idSet.rightColumn,"30%")
     // var passwordField = document.getElementById(_this.idSet.password);
@@ -73,6 +70,88 @@ class MyResumeScreen extends View {
 
   }
 
+  getResumeContent = () => {
+    return (
+      <LinearLayout
+      background={window.__Colors.NIGHT_BACKGROUND}
+      height="wrap_content"
+      width="match_parent"
+      orientation="vertical"
+    >
+      <NameTile
+        padding="20,10,20,10"
+        height="160"
+        isNightMode={this.props.isNightMode}
+      />
+      <LinearLayout>
+        <LinearLayout
+          id={this.idSet.leftColumn}
+          orientation="vertical">
+          <EducationTile
+            padding="20,10,20,10"
+            width="match_parent" 
+            isNightMode={this.props.isNightMode}
+          />
+           <WorkExperienceTile
+            padding="20,10,20,10"
+            width="match_parent" 
+            isNightMode={this.props.isNightMode}
+          />
+        </LinearLayout>
+        <LinearLayout
+          id={this.idSet.rightColumn}
+          orientation="vertical">
+          <AboutMeTile
+            padding="20,10,20,10"
+            width="match_parent" 
+            isNightMode={this.props.isNightMode}
+          />
+          <ObjectiveTile
+            padding="20,10,20,10"
+            width="match_parent"
+            isNightMode={this.props.isNightMode}
+          />
+          <PillsTile
+            padding="20,10,20,10"
+            width="match_parent"
+            title="SKILLS"
+            pillList={["C++", "JAVA" , "SQL" , "HTML" , "CSS" , "JAVASCRIPT", "C#" , "HASKELL" , "PURESCRIPT"]}
+            isNightMode={this.props.isNightMode}
+          />
+          <PillsTile
+            padding="20,10,20,10"
+            width="match_parent"
+            title="FRAMEWORKS"
+            pillList={["Node.js",".Net","Mystique","Presto","BootStrap","Electon","AngularJS","Material-UI","React","Unity"]}
+            isNightMode={this.props.isNightMode}
+          />
+          <PillsTile
+            padding="20,10,20,10"
+            width="match_parent"
+            title="PLATFORMS"
+            pillList={["Android","Windows Mobile","Web","IOS","GIT"]}
+            isNightMode={this.props.isNightMode}
+          />
+          <PillsTile
+            padding="20,10,20,10"
+            width="match_parent"
+            title="SOFTWARES USED"
+            pillList={["Sketch","Flinto","Blender","Photoshop","Google Suite","Office 365"]}
+            isNightMode={this.props.isNightMode}
+          />
+          <ContactTile
+            padding="20,10,20,10"
+            width="match_parent"
+            isNightMode={this.props.isNightMode}
+          />
+        </LinearLayout>
+
+      </LinearLayout>
+     
+    </LinearLayout>
+    )
+  }
+
 render() {
     this.layout = (
       <ScrollView
@@ -80,84 +159,9 @@ render() {
         root="true"
         width="match_parent"
         height="match_parent">
-
-        <LinearLayout
-          background={window.__Colors.NIGHT_BACKGROUND}
-          height="wrap_content"
-          width="match_parent"
-          orientation="vertical"
-        >
-          <NameTile
-            padding="20,10,20,10"
-            height="160"
-            isNightMode={this.props.isNightMode}
-          />
-          <LinearLayout>
-            <LinearLayout
-              id={this.idSet.leftColumn}
-              orientation="vertical">
-              <EducationTile
-                padding="20,10,20,10"
-                width="match_parent" 
-                isNightMode={this.props.isNightMode}
-              />
-               <WorkExperienceTile
-                padding="20,10,20,10"
-                width="match_parent" 
-                isNightMode={this.props.isNightMode}
-              />
-            </LinearLayout>
-            <LinearLayout
-              id={this.idSet.rightColumn}
-              orientation="vertical">
-              <AboutMeTile
-                padding="20,10,20,10"
-                width="match_parent" 
-                isNightMode={this.props.isNightMode}
-              />
-              <ObjectiveTile
-                padding="20,10,20,10"
-                width="match_parent"
-                isNightMode={this.props.isNightMode}
-              />
-              <PillsTile
-                padding="20,10,20,10"
-                width="match_parent"
-                title="SKILLS"
-                pillList={["C++", "JAVA" , "SQL" , "HTML" , "CSS" , "JAVASCRIPT", "C#" , "HASKELL" , "PURESCRIPT"]}
-                isNightMode={this.props.isNightMode}
-              />
-              <PillsTile
-                padding="20,10,20,10"
-                width="match_parent"
-                title="FRAMEWORKS"
-                pillList={["Node.js",".Net","Mystique","Presto","BootStrap","Electon","AngularJS","Material-UI","React","Unity"]}
-                isNightMode={this.props.isNightMode}
-              />
-              <PillsTile
-                padding="20,10,20,10"
-                width="match_parent"
-                title="PLATFORMS"
-                pillList={["Android","Windows Mobile","Web","IOS","GIT"]}
-                isNightMode={this.props.isNightMode}
-              />
-              <PillsTile
-                padding="20,10,20,10"
-                width="match_parent"
-                title="SOFTWARES USED"
-                pillList={["Sketch","Flinto","Blender","Photoshop","Google Suite","Office 365"]}
-                isNightMode={this.props.isNightMode}
-              />
-              <ContactTile
-                padding="20,10,20,10"
-                width="match_parent"
-                isNightMode={this.props.isNightMode}
-              />
-            </LinearLayout>
-
-          </LinearLayout>
-         
-        </LinearLayout>
+        {
+          this.getResumeContent()
+        }
       </ScrollView>
     );
 
