@@ -15,6 +15,7 @@ const EducationTile = require("../components/MyResume/EducationTile.js");
 const PillsTile = require("../components/MyResume/PillsTile.js");
 const WorkExperienceTile = require("../components/MyResume/WorkExperienceTile.js");
 const ContactTile = require("../components/MyResume/ContactTile.js");
+const PoweredBy = require("../components/MyResume/PoweredBy.js");
 
 class MyResumeScreen extends View {
   constructor(props, children, state) {
@@ -146,7 +147,14 @@ class MyResumeScreen extends View {
         </LinearLayout>
 
       </LinearLayout>
-     
+      
+      <PoweredBy
+        padding="20,10,20,10"
+        height="67"
+        width="match_parent"
+        isNightMode={this.props.isNightMode}
+        toggleNightMode={this.toggleNightMode}
+      />
     </LinearLayout>
     )
   }
