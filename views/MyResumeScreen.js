@@ -16,6 +16,7 @@ const PillsTile = require("../components/MyResume/PillsTile.js");
 const WorkExperienceTile = require("../components/MyResume/WorkExperienceTile.js");
 const ContactTile = require("../components/MyResume/ContactTile.js");
 const PoweredBy = require("../components/MyResume/PoweredBy.js");
+const ReferenceTile = require("../components/MyResume/ReferenceTile.js");
 
 class MyResumeScreen extends View {
   constructor(props, children, state) {
@@ -26,14 +27,19 @@ class MyResumeScreen extends View {
       "leftColumn",
       "rightColumn"
     ]);
-    this.props.isNightMode = localStorage.getItem('nightMode') == "true" ? true : false
     // this.shouldCacheScreen =true;
     // this.clearData();
-    window.toggleNightMode = this.toggleNightMode;
+    this.setUpProps()
+  }
+
+  setUpProps = () => {
+    var nightMode = localStorage.getItem('nightMode') == "true" ? true : false;
+    this.props.isNightMode = nightMode
+    this.props.mainBackground = nightMode? window.__Colors.NIGHT_TOOLBAR : window.__Colors.LIGHT_TOOLBAR;
   }
 
   onPop = () => {
-    this.props.isNightMode = localStorage.getItem('nightMode') == "true" ? true : false
+    this.setUpProps()
     Android.runInUI(
       this.animateView(),
       0
@@ -71,9 +77,12 @@ class MyResumeScreen extends View {
   }
 
   getResumeContent = () => {
+    var isNightMode = localStorage.getItem('nightMode') == "true" ? true : false;
+    var mainBackground = isNightMode? window.__Colors.NIGHT_TOOLBAR : window.__Colors.LIGHT_TOOLBAR;
     return (
       <LinearLayout
-      background={window.__Colors.NIGHT_BACKGROUND}
+      root="true"
+      background={mainBackground}
       height="wrap_content"
       width="match_parent"
       orientation="vertical"
@@ -81,7 +90,7 @@ class MyResumeScreen extends View {
       <NameTile
         padding="20,10,20,10"
         height="160"
-        isNightMode={this.props.isNightMode}
+        isNightMode={isNightMode}
       />
       <LinearLayout>
         <LinearLayout
@@ -90,12 +99,12 @@ class MyResumeScreen extends View {
           <EducationTile
             padding="20,10,20,10"
             width="match_parent" 
-            isNightMode={this.props.isNightMode}
+            isNightMode={isNightMode}
           />
            <WorkExperienceTile
             padding="20,10,20,10"
             width="match_parent" 
-            isNightMode={this.props.isNightMode}
+            isNightMode={isNightMode}
           />
         </LinearLayout>
         <LinearLayout
@@ -104,55 +113,62 @@ class MyResumeScreen extends View {
           <AboutMeTile
             padding="20,10,20,10"
             width="match_parent" 
-            isNightMode={this.props.isNightMode}
+            isNightMode={isNightMode}
           />
           <ObjectiveTile
             padding="20,10,20,10"
             width="match_parent"
-            isNightMode={this.props.isNightMode}
+            isNightMode={isNightMode}
           />
           <PillsTile
             padding="20,10,20,10"
             width="match_parent"
             title="SKILLS"
             pillList={["C++", "JAVA" , "SQL" , "HTML" , "CSS" , "JAVASCRIPT", "C#" , "HASKELL" , "PURESCRIPT"]}
-            isNightMode={this.props.isNightMode}
+            isNightMode={isNightMode}
           />
           <PillsTile
             padding="20,10,20,10"
             width="match_parent"
             title="FRAMEWORKS"
             pillList={["Node.js",".Net","Mystique","Presto","BootStrap","Electon","AngularJS","Material-UI","React","Unity"]}
-            isNightMode={this.props.isNightMode}
+            isNightMode={isNightMode}
           />
           <PillsTile
             padding="20,10,20,10"
             width="match_parent"
             title="PLATFORMS"
             pillList={["Android","Windows Mobile","Web","IOS","GIT"]}
-            isNightMode={this.props.isNightMode}
+            isNightMode={isNightMode}
           />
           <PillsTile
             padding="20,10,20,10"
             width="match_parent"
             title="SOFTWARES USED"
             pillList={["Sketch","Flinto","Blender","Photoshop","Google Suite","Office 365"]}
-            isNightMode={this.props.isNightMode}
+            isNightMode={isNightMode}
           />
           <ContactTile
             padding="20,10,20,10"
             width="match_parent"
-            isNightMode={this.props.isNightMode}
+            isNightMode={isNightMode}
           />
+          <ReferenceTile
+          padding="20,10,20,10"
+          width="match_parent"
+          isNightMode={isNightMode}
+        />
         </LinearLayout>
 
       </LinearLayout>
-      
+      <LinearLayout
+        height="20"
+        width="match_parent"/>
       <PoweredBy
         padding="20,10,20,10"
         height="67"
         width="match_parent"
-        isNightMode={this.props.isNightMode}
+        isNightMode={isNightMode}
         toggleNightMode={this.toggleNightMode}
       />
     </LinearLayout>
