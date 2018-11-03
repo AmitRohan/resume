@@ -50,7 +50,6 @@ class MyResumeScreen extends View {
     this.props.isNightMode=isNightMode;
     this.replaceChild(this.idSet.container,this.getResumeContent().render(),0)
     setTimeout(this.afterRender(),100);
-    // window.__runDuiCallback({ action: "NIGHT_MODE_TOGGLED" });
   }
   
   afterRender = () => {
