@@ -144,7 +144,7 @@ render() {
                 padding="20,10,20,10"
                 width="match_parent"
                 title="PLATFORMS"
-                pillList={["Android","Windows Mobile","Web","IOS"]}
+                pillList={["Android","Windows Mobile","Web","IOS","GIT"]}
                 isNightMode={false}
               />
               <PillsTile
