@@ -33,7 +33,7 @@ class AboutMeTile extends View {
   
     this.content = [
       {
-        label : "+91 7568268430",
+        label : "7568268430",
         imageUrl : "social-whatsapp",
         hyperLink : undefined
       } , {
