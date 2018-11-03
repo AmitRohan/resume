@@ -12,7 +12,6 @@ import Data.Function.Uncurried (runFn1, runFn2)
 import Data.Maybe (Maybe(..))
 import Data.String (Pattern(..), stripPrefix)
 import Prelude (bind, discard, pure, unit, ($), (<>))
-import Types.Core (SocketMsg(..))
 import Utils (logAny, post, showUI, updateState, getRecord, sendUpdatedState, showToast, getSavedState, getGuestLogin)
 
 init state = do
@@ -22,21 +21,12 @@ init state = do
 handleStateChange state = do
   case state.action of
     "INIT_UI"             -> showUI state.action state >>= handleStateChange
-    "HOME"                -> (loginFlow $ updateState state {screen: "MyResumeScreen"}) >>= handleStateChange
+    "HOME"                -> (loadScreenFromState $ updateState state {screen: "MyResumeScreen"}) >>= handleStateChange
     _                     -> liftEff $ log $ "Action yet to be implemented " <> state.action
 
 
-loginFlow state = do
+loadScreenFromState state = do
   state <- showUI state.screen state
   pure $ state
-
-
-
-getParAff state =
-  let uiAff = ParAff $ showUI state.screen state
-      -- wsReceiver = ParAff $ fromSocket
-      ParAff a = uiAff -- <|> wsReceiver
-      in a
-
 
 main = launchAff $ init (getSavedState)

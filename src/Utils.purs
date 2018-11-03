@@ -13,7 +13,8 @@ import Data.StrMap as StrMap
 import Data.Tuple
 import Control.Monad.Except.Trans
 
-getMoonshotLocation = "http://moonshot.ap-south-1.elasticbeanstalk.com"
+apiEndPoint :: String
+apiEndPoint = ""
 
 
 type State a = {screen :: String |a}
@@ -34,10 +35,10 @@ foreign import setSavedState :: forall a. a -> Unit
 foreign import getGuestLogin :: forall a b. a -> b
 
 get path headers =
-  makeAff(\error success -> _callAPI success error GET (getMoonshotLocation <> path) {} headers)
+  makeAff(\error success -> _callAPI success error GET (apiEndPoint <> path) {} headers)
 
 post path headers body =
-  makeAff(\error success -> _callAPI success error POST (getMoonshotLocation <> path) body headers)
+  makeAff(\error success -> _callAPI success error POST (apiEndPoint <> path) body headers)
 
 showUI screen state =
   let updatedState = state {screen = screen} in
