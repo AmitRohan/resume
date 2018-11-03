@@ -140,12 +140,12 @@ exports.setTimeout = function(time){
   };
 };
 
-exports.getSavedState = (JSON.parse(localStorage.getItem("moonshot_state")) || {action: "INIT_UI", screen: "INIT"})
+exports.getSavedState = (JSON.parse(localStorage.getItem("resume_state")) || {action: "INIT_UI", screen: "INIT"})
 
 exports.getGuestLogin = function() {
-  return (JSON.parse(localStorage.getItem("moonshot_state")) || {action: "INIT_UI", screen: "INIT"})
+  return (JSON.parse(localStorage.getItem("resume_state")) || {action: "INIT_UI", screen: "INIT"})
 }
 
 exports.setSavedState = function(state) {
-  localStorage.setItem("moonshot_state", JSON.stringify(state));
+  localStorage.setItem("resume_state", JSON.stringify(state));
 }
