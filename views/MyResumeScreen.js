@@ -124,7 +124,7 @@ class MyResumeScreen extends View {
             padding="20,10,20,10"
             width="match_parent"
             title="SKILLS"
-            pillList={["C++", "JAVA" , "SQL" , "HTML" , "CSS" , "JAVASCRIPT", "C#" , "HASKELL" , "PURESCRIPT"]}
+            pillList={["C++", "JAVA" , "SQL" , "HTML" , "CSS" , "JAVASCRIPT", "C#" , "PHP", "HASKELL" , "PURESCRIPT"]}
             isNightMode={isNightMode}
           />
           <PillsTile
