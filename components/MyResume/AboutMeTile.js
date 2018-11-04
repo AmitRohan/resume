@@ -52,7 +52,7 @@ class AboutMeTile extends View {
         description : "Full Time Job"
       },{
         label : "Hobbies",
-        description : "Playing Tennis, Football, Keyboard, Guitar and Listening to Music"
+        description : "Playing Computer Games, Tennis, Football, Keyboard, Guitar and Listening to Music"
       }
 
     ]
