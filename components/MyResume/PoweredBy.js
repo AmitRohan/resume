@@ -15,7 +15,10 @@ class PoweredBy extends View {
       "titleHolder",
       "nightModeToggleHolder",
       "bottomDividerHolder",
-      "midHolder"
+      "midHolder",
+      "sourceCodeText",
+      "seperator1",
+      "seperator2"
     ]);
 
 
@@ -67,23 +70,21 @@ class PoweredBy extends View {
     return (
       <LinearLayout
         id={this.idSet.titleHolder}
-        height="match_parent"
+        height="wrap_content"
         padding={this.props.padding}
         margin="0,0,24,0">
           <TextView
             text="Powered By"
             fontStyle={window.__Font.fontStyle.REGULAR}
             color={this.props.toolbarTextPrimary}
-            textSize="40"
-            height="match_parent"
+            textSize="35"
             margin="0,0,4,0"/>
           <TextView
             onClick = {()=>{window.open("https://www.npmjs.com/package/@juspay/mystique")}}
             text="MYSTIQUE"
             fontStyle={window.__Font.fontStyle.BOLD}
             color={window.__Colors.COLOR_ACCENT}
-            textSize="40"
-            height="match_parent"/>
+            textSize="35"/>
       </LinearLayout>
     )
   }
@@ -92,14 +93,15 @@ class PoweredBy extends View {
     return (
       <LinearLayout
           id={this.idSet.midHolder}
-          height="match_parent"
+          height="wrap_content"
           padding={this.props.padding}>
          <TextView
+            id = {this.idSet.sourceCodeText}
             onClick = {()=>{window.open("https://github.com/AmitRohan/resume")}}
             text="View Source </>"
             fontStyle={window.__Font.fontStyle.BOLD}
             color={this.props.toolbarTextPrimary}
-            textSize="40"
+            textSize="35"
             width="match_parent"
             gravity="center"/>
       </LinearLayout>
@@ -112,20 +114,20 @@ class PoweredBy extends View {
       + " night mode"
     return (<LinearLayout
       id={this.idSet.headerHolder}
-      height="42"
+      height="wrap_content"
       width="match_parent">
         {
           this.getTitle()
         }
         <LinearLayout
-          height={ parseInt(this.props.height) >= 0 ? this.props.height:"42" }
+          id = {this.idSet.seperator1}
           width="2"
           background={window.__Colors.COLOR_ACCENT}/>
         {
           this.getSourceCode()
         }
         <LinearLayout
-          height={ parseInt(this.props.height) >= 0 ? this.props.height :"42" }
+          id = {this.idSet.seperator2}
           width="2"
           background={window.__Colors.COLOR_ACCENT}/>
         <TextView
@@ -135,8 +137,7 @@ class PoweredBy extends View {
           text={nightModeMessage}
           fontStyle={window.__Font.fontStyle.BOLD}
           color={this.props.toolbarTextPrimary}
-          textSize="40"
-          height="match_parent"/>
+          textSize="35"/>
     </LinearLayout>)
   }
 
@@ -162,6 +163,10 @@ class PoweredBy extends View {
     JBridge.setWidth(this.idSet.titleHolder,"30%")
     JBridge.setWidth(this.idSet.midHolder,"36%")
     JBridge.setWidth(this.idSet.nightModeToggleHolder,"30%")
+    var _height = JBridge.getHeight(this.idSet.headerHolder);
+    JBridge.setHeight(this.idSet.seperator1,_height)
+    JBridge.setHeight(this.idSet.seperator2,_height)
+    JBridge.setMargin(this.idSet.sourceCodeText,"auto,auto,auto,auto")
     this.hideDivider();
     var _this = this;
     setTimeout(() => {
