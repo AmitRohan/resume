@@ -1,10 +1,8 @@
 const dom = require("@juspay/mystique-backend").doms.android;
-const Connector = require("@juspay/mystique-backend").connector;
 const LinearLayout = require("@juspay/mystique-backend").androidViews.LinearLayout;
 const View = require("@juspay/mystique-backend").baseViews.AndroidBaseView;
 const TextView = require("@juspay/mystique-backend").androidViews.TextView;
 
-var LabelWithDescription = require("./Helper/LabelWithDescription.js");
 var DateWithContent = require("./Helper/DateWithContent.js");
 
 class WorkExperienceTile extends View {
