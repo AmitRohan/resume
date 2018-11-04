@@ -42,7 +42,7 @@ class WorkExperienceTile extends View {
         date : "Jan - June of 2017",
         title : "Abyeti Technologies (www.abyeti.com)",
         subTitle : "Intern Software Developer",
-        description :"Worked"   
+        description :"Worked for their client Juspay Technologies. Worked as the UI developer for BHIM and other internal projects."   
       } , {
         date : "July 2016",
         title : "ONGC Ahemedabad",
