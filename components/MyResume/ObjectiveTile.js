@@ -79,7 +79,7 @@ class ObjectiveTile extends View {
     return (
       <TextView
           id={this.idSet.bodyHolder}
-          text="I'm an App/Web Developer with a passion for Internet and the digital world, which began at a very young age when I dabbled with creating a website for my school project. Since then I have been hooked on creating elegant, usable and effective programs with good architecture."
+          text="I'm an App/Web Developer with a passion for Internet and the digital world, which began at a very young age when I dabbled with creating a website for my school project. Since then I have been hooked on creating elegant, usable and effective programs with good architectural programming."
           fontStyle={window.__Font.fontStyle.REGULAR}
           color={this.props.toolbarTextSecondary}
           textSize="20"
