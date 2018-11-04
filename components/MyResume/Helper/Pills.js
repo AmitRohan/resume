@@ -65,6 +65,7 @@ class Pills extends View {
         id={this.props.id}
         height={this.props.height}
         width= "wrap_content"
+        elevateUp="true"
         background={this.props.toolbarBackground}
         margin={this.props.margin}
         padding={this.props.padding}
