@@ -59,10 +59,26 @@ class DateWithContent extends View {
     }),null);
   }
 
+  isUrlValid = (userInput) => {
+    var res = userInput.match(/(http(s)?:\/\/.)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/g);
+    if(res == null)
+        return false;
+    else
+        return true;
+  }
+  extraceUrl = (text) => {
+    var startPos = text.indexOf("(") + 1;
+    var endPos = text.indexOf(")");
+    return "https://" + text.substring(startPos,endPos)
+  }
+
   onRender = () => {
     JBridge.setWidth(this.idSet.dateHolder,"15%")
     JBridge.setWidth(this.idSet.contentHolder,"70%")
-
+    if(this.isUrlValid(this.props.title)){
+      var extractedUrl = this.extraceUrl(this.props.title);
+      JBridge.setOnClick(this.idSet.titleHolder,()=>{window.open(extractedUrl)})
+    }
     setTimeout(() => {
       var height = JBridge.getHeight(this.idSet.contentHolder)
       JBridge.setHeight(this.idSet.seperatorHolder,height)
