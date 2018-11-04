@@ -45101,7 +45101,7 @@
 	    _this2.getBody = function () {
 	      return dom(TextView, {
 	        id: _this2.idSet.bodyHolder,
-	        text: "I'm an App/Web Developer with a passion for Internet and the digital world, which began at a very young age when I dabbled with creating a website for my school project. Since then I have been hooked on creating elegant, usable and effective programs with good architecture.",
+	        text: "I'm an App/Web Developer with a passion for Internet and the digital world, which began at a very young age when I dabbled with creating a website for my school project. Since then I have been hooked on creating elegant, usable and effective programs with good architectural programming.",
 	        fontStyle: window.__Font.fontStyle.REGULAR,
 	        color: _this2.props.toolbarTextSecondary,
 	        textSize: "20",
@@ -45232,7 +45232,7 @@
 	        description: "Full Time Job"
 	      }, {
 	        label: "Hobbies",
-	        description: "Playing Tennis, Football, Keyboard, Guitar and Listening to Music"
+	        description: "Playing Computer Games, Tennis, Football, Keyboard, Guitar and Listening to Music"
 	      }];
 	    };
 	
@@ -46194,6 +46194,7 @@
 	          id: this.props.id,
 	          height: this.props.height,
 	          width: "wrap_content",
+	          elevateUp: "true",
 	          background: this.props.toolbarBackground,
 	          margin: this.props.margin,
 	          padding: this.props.padding,
@@ -46210,7 +46211,7 @@
 	          color: this.props.toolbarTextPrimary,
 	          textSize: this.props.textSize, __source: {
 	            fileName: _jsxFileName,
-	            lineNumber: 72
+	            lineNumber: 73
 	          }
 	        })
 	      );
