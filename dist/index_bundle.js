@@ -44686,12 +44686,23 @@
 	            dom(PillsTile, {
 	              padding: "20,10,20,10",
 	              width: "match_parent",
-	              title: "SKILLS",
-	              pillList: ["C++", "JAVA", "SQL", "HTML", "CSS", "JAVASCRIPT", "C#", "HASKELL", "PURESCRIPT"],
+	              title: "HANDS ON",
+	              pillList: ["FOODPANDA", "OLA", "DIKSHA", "sRIG", "Dextra"],
 	              isNightMode: isNightMode,
 	              __source: {
 	                fileName: _jsxFileName,
 	                lineNumber: 123
+	              }
+	            }),
+	            dom(PillsTile, {
+	              padding: "20,10,20,10",
+	              width: "match_parent",
+	              title: "SKILLS",
+	              pillList: ["C++", "JAVA", "SQL", "HTML", "CSS", "JAVASCRIPT", "C#", "PHP", "HASKELL", "PURESCRIPT"],
+	              isNightMode: isNightMode,
+	              __source: {
+	                fileName: _jsxFileName,
+	                lineNumber: 130
 	              }
 	            }),
 	            dom(PillsTile, {
@@ -44702,7 +44713,7 @@
 	              isNightMode: isNightMode,
 	              __source: {
 	                fileName: _jsxFileName,
-	                lineNumber: 130
+	                lineNumber: 137
 	              }
 	            }),
 	            dom(PillsTile, {
@@ -44713,7 +44724,7 @@
 	              isNightMode: isNightMode,
 	              __source: {
 	                fileName: _jsxFileName,
-	                lineNumber: 137
+	                lineNumber: 144
 	              }
 	            }),
 	            dom(PillsTile, {
@@ -44724,7 +44735,7 @@
 	              isNightMode: isNightMode,
 	              __source: {
 	                fileName: _jsxFileName,
-	                lineNumber: 144
+	                lineNumber: 151
 	              }
 	            }),
 	            dom(ContactTile, {
@@ -44733,7 +44744,7 @@
 	              isNightMode: isNightMode,
 	              __source: {
 	                fileName: _jsxFileName,
-	                lineNumber: 151
+	                lineNumber: 158
 	              }
 	            }),
 	            dom(ReferenceTile, {
@@ -44742,7 +44753,7 @@
 	              isNightMode: isNightMode,
 	              __source: {
 	                fileName: _jsxFileName,
-	                lineNumber: 156
+	                lineNumber: 163
 	              }
 	            })
 	          )
@@ -44751,7 +44762,7 @@
 	          height: "20",
 	          width: "match_parent", __source: {
 	            fileName: _jsxFileName,
-	            lineNumber: 164
+	            lineNumber: 171
 	          }
 	        }),
 	        dom(PoweredBy, {
@@ -44762,7 +44773,7 @@
 	          toggleNightMode: _this.toggleNightMode,
 	          __source: {
 	            fileName: _jsxFileName,
-	            lineNumber: 167
+	            lineNumber: 174
 	          }
 	        })
 	      );
@@ -44787,7 +44798,7 @@
 	          width: "match_parent",
 	          height: "match_parent", __source: {
 	            fileName: _jsxFileName,
-	            lineNumber: 180
+	            lineNumber: 187
 	          }
 	        },
 	        this.getResumeContent()
@@ -45742,10 +45753,26 @@
 	      }), null, "56", "UsersamitrohanProjectsgitresumeprodcomponentsMyResumeHelperDateWithContentjs");
 	    };
 	
+	    _this.isUrlValid = function (userInput) {
+	      var res = userInput.match(/(http(s)?:\/\/.)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/g);
+	      if (res == null) return false;else return true;
+	    };
+	
+	    _this.extraceUrl = function (text) {
+	      var startPos = text.indexOf("(") + 1;
+	      var endPos = text.indexOf(")");
+	      return "https://" + text.substring(startPos, endPos);
+	    };
+	
 	    _this.onRender = function () {
 	      JBridge.setWidth(_this.idSet.dateHolder, "15%");
 	      JBridge.setWidth(_this.idSet.contentHolder, "70%");
-	
+	      if (_this.isUrlValid(_this.props.title)) {
+	        var extractedUrl = _this.extraceUrl(_this.props.title);
+	        JBridge.setOnClick(_this.idSet.titleHolder, function () {
+	          window.open(extractedUrl);
+	        });
+	      }
 	      setTimeout(function () {
 	        var height = JBridge.getHeight(_this.idSet.contentHolder);
 	        JBridge.setHeight(_this.idSet.seperatorHolder, height);
@@ -45768,7 +45795,7 @@
 	          id: _this.idSet.seperatorHolder,
 	          orientation: "vertical", __source: {
 	            fileName: _jsxFileName,
-	            lineNumber: 85
+	            lineNumber: 101
 	          }
 	        },
 	        dom(
@@ -45780,7 +45807,7 @@
 	            gravity: "center",
 	            margin: "auto,0,auto,2", __source: {
 	              fileName: _jsxFileName,
-	              lineNumber: 88
+	              lineNumber: 104
 	            }
 	          },
 	          dom(ViewWidget, {
@@ -45788,7 +45815,7 @@
 	            height: lineDimension,
 	            background: _this.props.seperatorBackground, __source: {
 	              fileName: _jsxFileName,
-	              lineNumber: 94
+	              lineNumber: 110
 	            }
 	          }),
 	          dom(ViewWidget, {
@@ -45796,7 +45823,7 @@
 	            height: "1",
 	            background: _this.props.seperatorBackground, __source: {
 	              fileName: _jsxFileName,
-	              lineNumber: 98
+	              lineNumber: 114
 	            }
 	          })
 	        ),
@@ -45805,7 +45832,7 @@
 	          width: "1",
 	          background: _this.props.seperatorBackground, __source: {
 	            fileName: _jsxFileName,
-	            lineNumber: 104
+	            lineNumber: 120
 	          }
 	        })
 	      );
@@ -45819,7 +45846,7 @@
 	          margin: "5,0,0,0",
 	          orientation: "vertical", __source: {
 	            fileName: _jsxFileName,
-	            lineNumber: 116
+	            lineNumber: 132
 	          }
 	        },
 	        dom(TextView, {
@@ -45829,7 +45856,7 @@
 	          color: _this.props.toolbarTextPrimary,
 	          textSize: _this.props.textSize, __source: {
 	            fileName: _jsxFileName,
-	            lineNumber: 120
+	            lineNumber: 136
 	          }
 	        }),
 	        dom(TextView, {
@@ -45840,7 +45867,7 @@
 	          color: window.__Colors.COLOR_ACCENT,
 	          textSize: _this.props.textSize, __source: {
 	            fileName: _jsxFileName,
-	            lineNumber: 126
+	            lineNumber: 142
 	          }
 	        }),
 	        dom(TextView, {
@@ -45851,7 +45878,7 @@
 	          color: _this.props.toolbarTextSecondary,
 	          textSize: _this.props.textSize, __source: {
 	            fileName: _jsxFileName,
-	            lineNumber: 133
+	            lineNumber: 149
 	          }
 	        })
 	      );
@@ -45879,7 +45906,7 @@
 	          margin: this.props.margin,
 	          height: "wrap_content", __source: {
 	            fileName: _jsxFileName,
-	            lineNumber: 149
+	            lineNumber: 165
 	          }
 	        },
 	        dom(TextView, {
@@ -45891,7 +45918,7 @@
 	          textSize: this.props.textSize,
 	          margin: "0,0,5,0", __source: {
 	            fileName: _jsxFileName,
-	            lineNumber: 156
+	            lineNumber: 172
 	          }
 	        }),
 	        this.getSeperator(),
@@ -46216,12 +46243,10 @@
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
 	var dom = __webpack_require__(544).doms.android;
-	var Connector = __webpack_require__(544).connector;
 	var LinearLayout = __webpack_require__(544).androidViews.LinearLayout;
 	var View = __webpack_require__(544).baseViews.AndroidBaseView;
 	var TextView = __webpack_require__(544).androidViews.TextView;
 	
-	var LabelWithDescription = __webpack_require__(625);
 	var DateWithContent = __webpack_require__(627);
 	
 	var WorkExperienceTile = function (_View) {
@@ -46251,7 +46276,12 @@
 	        subTitle: "Intern Software Developer",
 	        description: "Worked for their client Juspay Technologies. Worked as the UI developer for BHIM and other internal projects."
 	      }, {
-	        date: "May - July of 2016",
+	        date: "July 2016",
+	        title: "ONGC Ahemedabad",
+	        subTitle: "Intern Developer.",
+	        description: "Built sRIG (android application) for them. The app helped them to locate the position of their rigs.  Also it had some added functionality to help them get updated details of the RIG systems/readings.\nResponsibility & Skills acquired : \n· Product Manager \n· Research for identifying the key issue faced by the employees of ONGC. (Tracking Rigs)\n· Backend : Used PHP to create restfull API's\n· JSON structure to parse data\n· Android APP as a fully functional Frontend Client"
+	      }, {
+	        date: "May - June of 2016",
 	        title: "Dextra Arts (www.dextra.com)",
 	        subTitle: "Intern Android Developer",
 	        description: "Established the core architecture for UI/UX. Also quickly added features like youtube player and animations."
@@ -46282,14 +46312,14 @@
 	      Android.runInUI(_this2.set({
 	        id: _this2.props.id,
 	        visibility: "visible"
-	      }), null, "77", "UsersamitrohanProjectsgitresumeprodcomponentsMyResumeWorkExperienceTilejs");
+	      }), null, "80", "UsersamitrohanProjectsgitresumeprodcomponentsMyResumeWorkExperienceTilejs");
 	    };
 	
 	    _this2.hide = function () {
 	      Android.runInUI(_this2.set({
 	        id: _this2.props.id,
 	        visibility: "gone"
-	      }), null, "84", "UsersamitrohanProjectsgitresumeprodcomponentsMyResumeWorkExperienceTilejs");
+	      }), null, "87", "UsersamitrohanProjectsgitresumeprodcomponentsMyResumeWorkExperienceTilejs");
 	    };
 	
 	    _this2.showDivider = function () {
@@ -46318,7 +46348,7 @@
 	        height: "30",
 	        margin: "0,0,0,10", __source: {
 	          fileName: _jsxFileName,
-	          lineNumber: 108
+	          lineNumber: 111
 	        }
 	      });
 	    };
@@ -46336,7 +46366,7 @@
 	          width: "match_parent",
 	          __source: {
 	            fileName: _jsxFileName,
-	            lineNumber: 124
+	            lineNumber: 127
 	          }
 	        });
 	      });
@@ -46347,7 +46377,7 @@
 	          width: "match_parent",
 	          orientation: "vetical", __source: {
 	            fileName: _jsxFileName,
-	            lineNumber: 136
+	            lineNumber: 139
 	          }
 	        },
 	        dateWithContentList
@@ -46385,7 +46415,7 @@
 	          height: "wrap_content",
 	          orientation: "vertical", __source: {
 	            fileName: _jsxFileName,
-	            lineNumber: 159
+	            lineNumber: 162
 	          }
 	        },
 	        this.getTitle(),
@@ -46395,7 +46425,7 @@
 	          width: "match_parent",
 	          background: window.__Colors.COLOR_ACCENT, __source: {
 	            fileName: _jsxFileName,
-	            lineNumber: 170
+	            lineNumber: 173
 	          }
 	        }),
 	        this.getBody()
