@@ -123,6 +123,13 @@ class MyResumeScreen extends View {
           <PillsTile
             padding="20,10,20,10"
             width="match_parent"
+            title="HANDS ON"
+            pillList={["FOODPANDA","OLA","DIKSHA","sRIG","Dextra"]}
+            isNightMode={isNightMode}
+          />
+          <PillsTile
+            padding="20,10,20,10"
+            width="match_parent"
             title="SKILLS"
             pillList={["C++", "JAVA" , "SQL" , "HTML" , "CSS" , "JAVASCRIPT", "C#" , "PHP", "HASKELL" , "PURESCRIPT"]}
             isNightMode={isNightMode}
