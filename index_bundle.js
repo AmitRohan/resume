@@ -46810,14 +46810,14 @@
 	      Android.runInUI(_this2.set({
 	        id: _this2.props.id,
 	        visibility: "visible"
-	      }), null, "38", "UsersamitrohanProjectsgitresumeprodcomponentsMyResumePoweredByjs");
+	      }), null, "41", "UsersamitrohanProjectsgitresumeprodcomponentsMyResumePoweredByjs");
 	    };
 	
 	    _this2.hide = function () {
 	      Android.runInUI(_this2.set({
 	        id: _this2.props.id,
 	        visibility: "gone"
-	      }), null, "45", "UsersamitrohanProjectsgitresumeprodcomponentsMyResumePoweredByjs");
+	      }), null, "48", "UsersamitrohanProjectsgitresumeprodcomponentsMyResumePoweredByjs");
 	    };
 	
 	    _this2.showDivider = function () {
@@ -46841,22 +46841,21 @@
 	        LinearLayout,
 	        {
 	          id: _this2.idSet.titleHolder,
-	          height: "match_parent",
+	          height: "wrap_content",
 	          padding: _this2.props.padding,
 	          margin: "0,0,24,0", __source: {
 	            fileName: _jsxFileName,
-	            lineNumber: 68
+	            lineNumber: 71
 	          }
 	        },
 	        dom(TextView, {
 	          text: "Powered By",
 	          fontStyle: window.__Font.fontStyle.REGULAR,
 	          color: _this2.props.toolbarTextPrimary,
-	          textSize: "40",
-	          height: "match_parent",
+	          textSize: "35",
 	          margin: "0,0,4,0", __source: {
 	            fileName: _jsxFileName,
-	            lineNumber: 73
+	            lineNumber: 76
 	          }
 	        }),
 	        dom(TextView, {
@@ -46866,10 +46865,9 @@
 	          text: "MYSTIQUE",
 	          fontStyle: window.__Font.fontStyle.BOLD,
 	          color: window.__Colors.COLOR_ACCENT,
-	          textSize: "40",
-	          height: "match_parent", __source: {
+	          textSize: "35", __source: {
 	            fileName: _jsxFileName,
-	            lineNumber: 80
+	            lineNumber: 82
 	          }
 	        })
 	      );
@@ -46880,24 +46878,25 @@
 	        LinearLayout,
 	        {
 	          id: _this2.idSet.midHolder,
-	          height: "match_parent",
+	          height: "wrap_content",
 	          padding: _this2.props.padding, __source: {
 	            fileName: _jsxFileName,
-	            lineNumber: 93
+	            lineNumber: 94
 	          }
 	        },
 	        dom(TextView, {
+	          id: _this2.idSet.sourceCodeText,
 	          onClick: function onClick() {
 	            window.open("https://github.com/AmitRohan/resume");
 	          },
 	          text: "View Source </>",
 	          fontStyle: window.__Font.fontStyle.BOLD,
 	          color: _this2.props.toolbarTextPrimary,
-	          textSize: "40",
+	          textSize: "35",
 	          width: "match_parent",
 	          gravity: "center", __source: {
 	            fileName: _jsxFileName,
-	            lineNumber: 97
+	            lineNumber: 98
 	          }
 	        })
 	      );
@@ -46909,28 +46908,28 @@
 	        LinearLayout,
 	        {
 	          id: _this2.idSet.headerHolder,
-	          height: "42",
+	          height: "wrap_content",
 	          width: "match_parent", __source: {
 	            fileName: _jsxFileName,
-	            lineNumber: 113
+	            lineNumber: 115
 	          }
 	        },
 	        _this2.getTitle(),
 	        dom(LinearLayout, {
-	          height: parseInt(_this2.props.height) >= 0 ? _this2.props.height : "42",
+	          id: _this2.idSet.seperator1,
 	          width: "2",
 	          background: window.__Colors.COLOR_ACCENT, __source: {
 	            fileName: _jsxFileName,
-	            lineNumber: 120
+	            lineNumber: 122
 	          }
 	        }),
 	        _this2.getSourceCode(),
 	        dom(LinearLayout, {
-	          height: parseInt(_this2.props.height) >= 0 ? _this2.props.height : "42",
+	          id: _this2.idSet.seperator2,
 	          width: "2",
 	          background: window.__Colors.COLOR_ACCENT, __source: {
 	            fileName: _jsxFileName,
-	            lineNumber: 127
+	            lineNumber: 129
 	          }
 	        }),
 	        dom(TextView, {
@@ -46940,10 +46939,9 @@
 	          text: nightModeMessage,
 	          fontStyle: window.__Font.fontStyle.BOLD,
 	          color: _this2.props.toolbarTextPrimary,
-	          textSize: "40",
-	          height: "match_parent", __source: {
+	          textSize: "35", __source: {
 	            fileName: _jsxFileName,
-	            lineNumber: 131
+	            lineNumber: 133
 	          }
 	        })
 	      );
@@ -46959,7 +46957,7 @@
 	          background: _this2.props.toolbarBackground,
 	          width: "match_parent", __source: {
 	            fileName: _jsxFileName,
-	            lineNumber: 147
+	            lineNumber: 148
 	          }
 	        },
 	        _this2.getContent()
@@ -46970,6 +46968,10 @@
 	      JBridge.setWidth(_this2.idSet.titleHolder, "30%");
 	      JBridge.setWidth(_this2.idSet.midHolder, "36%");
 	      JBridge.setWidth(_this2.idSet.nightModeToggleHolder, "30%");
+	      var _height = JBridge.getHeight(_this2.idSet.headerHolder);
+	      JBridge.setHeight(_this2.idSet.seperator1, _height);
+	      JBridge.setHeight(_this2.idSet.seperator2, _height);
+	      JBridge.setMargin(_this2.idSet.sourceCodeText, "auto,auto,auto,auto");
 	      _this2.hideDivider();
 	      var _this = _this2;
 	      setTimeout(function () {
@@ -46977,7 +46979,7 @@
 	      }, 1000);
 	    };
 	
-	    _this2.setIds(["parentContainer", "headerHolder", "titleHolder", "nightModeToggleHolder", "bottomDividerHolder", "midHolder"]);
+	    _this2.setIds(["parentContainer", "headerHolder", "titleHolder", "nightModeToggleHolder", "bottomDividerHolder", "midHolder", "sourceCodeText", "seperator1", "seperator2"]);
 	
 	    window.PoweredBy = _this2;
 	
@@ -46998,7 +47000,7 @@
 	          height: "wrap_content",
 	          orientation: "vertical", __source: {
 	            fileName: _jsxFileName,
-	            lineNumber: 176
+	            lineNumber: 181
 	          }
 	        },
 	        dom(LinearLayout, {
@@ -47007,7 +47009,7 @@
 	          width: "match_parent",
 	          background: window.__Colors.COLOR_ACCENT, __source: {
 	            fileName: _jsxFileName,
-	            lineNumber: 182
+	            lineNumber: 187
 	          }
 	        }),
 	        this.getBody()
