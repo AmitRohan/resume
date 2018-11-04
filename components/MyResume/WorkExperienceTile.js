@@ -42,9 +42,14 @@ class WorkExperienceTile extends View {
         date : "Jan - June of 2017",
         title : "Abyeti Technologies (www.abyeti.com)",
         subTitle : "Intern Software Developer",
-        description :"Worked for their client Juspay Technologies. Worked as the UI developer for BHIM and other internal projects."   
+        description :"Worked"   
       } , {
-        date : "May - July of 2016",
+        date : "July 2016",
+        title : "ONGC Ahemedabad",
+        subTitle : "Intern Developer.",
+        description :"Built sRIG (android application) for them. The app helped them to locate the position of their rigs.  Also it had some added functionality to help them get updated details of the RIG systems/readings.\nResponsibility & Skills acquired : \n· Product Manager \n· Research for identifying the key issue faced by the employees of ONGC. (Tracking Rigs)\n· Backend : Used PHP to create restfull API's\n· JSON structure to parse data\n· Android APP as a fully functional Frontend Client"   
+      } , {
+        date : "May - June of 2016",
         title : "Dextra Arts (www.dextra.com)",
         subTitle : "Intern Android Developer",
         description :"Established the core architecture for UI/UX. Also quickly added features like youtube player and animations."   
