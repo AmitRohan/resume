@@ -1,3 +1,7 @@
+# about
+ 
+ Demo [Click here](https://amitrohan.github.io/resume/)
+ 
 # install
  - `npm i`
  - `bower i`
