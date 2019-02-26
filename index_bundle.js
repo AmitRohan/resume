@@ -40425,7 +40425,7 @@
 			}
 	
 			if (ui.runInUI) {
-				Android.runInUI(ui.runInUI, null, "18", "UsersamitrohanProjectsgitresumeprodnodemodulesjuspaymystiquebackendsrcuihandlersandroidjs");
+				Android.runInUI(ui.runInUI, null, "18", "UsersamitrohanProjectsresumenodemodulesjuspaymystiquebackendsrcuihandlersandroidjs");
 			}
 			if (ui.addViewToParent) {
 				Android.addViewToParent(ui.addViewToParent.parentId, JSON.stringify(ui.addViewToParent.jsx), ui.addViewToParent.index, null);
@@ -40552,7 +40552,7 @@
 
 	'use strict';
 	
-	var _jsxFileName = '/Users/amit.rohan/Projects/git-resume-prod/node_modules/@juspay/mystique-backend/src/android_views/ImageView.js';
+	var _jsxFileName = '/Users/amit.rohan/Projects/resume/node_modules/@juspay/mystique-backend/src/android_views/ImageView.js';
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -40708,7 +40708,7 @@
 	    };
 	
 	    window.__SETFN = function (config) {
-	      Android.runInUI(this.set(config), null, '10', 'UsersamitrohanProjectsgitresumeprodnodemodulesjuspaymystiquebackendsrcbaseviewsAndroidBaseViewjs');
+	      Android.runInUI(this.set(config), null, '10', 'UsersamitrohanProjectsresumenodemodulesjuspaymystiquebackendsrcbaseviewsAndroidBaseViewjs');
 	    }.bind(_this2);
 	    return _this2;
 	  }
@@ -41101,7 +41101,7 @@
 
 	'use strict';
 	
-	var _jsxFileName = '/Users/amit.rohan/Projects/git-resume-prod/node_modules/@juspay/mystique-backend/src/android_views/LinearLayout.js';
+	var _jsxFileName = '/Users/amit.rohan/Projects/resume/node_modules/@juspay/mystique-backend/src/android_views/LinearLayout.js';
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -41371,7 +41371,7 @@
 
 	'use strict';
 	
-	var _jsxFileName = '/Users/amit.rohan/Projects/git-resume-prod/node_modules/@juspay/mystique-backend/src/android_views/RelativeLayout.js';
+	var _jsxFileName = '/Users/amit.rohan/Projects/resume/node_modules/@juspay/mystique-backend/src/android_views/RelativeLayout.js';
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -41513,7 +41513,7 @@
 
 	'use strict';
 	
-	var _jsxFileName = '/Users/amit.rohan/Projects/git-resume-prod/node_modules/@juspay/mystique-backend/src/android_views/TextView.js';
+	var _jsxFileName = '/Users/amit.rohan/Projects/resume/node_modules/@juspay/mystique-backend/src/android_views/TextView.js';
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -41566,7 +41566,7 @@
 
 	'use strict';
 	
-	var _jsxFileName = '/Users/amit.rohan/Projects/git-resume-prod/node_modules/@juspay/mystique-backend/src/android_views/HorizontalScrollView.js';
+	var _jsxFileName = '/Users/amit.rohan/Projects/resume/node_modules/@juspay/mystique-backend/src/android_views/HorizontalScrollView.js';
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -41625,7 +41625,7 @@
 
 	'use strict';
 	
-	var _jsxFileName = '/Users/amit.rohan/Projects/git-resume-prod/node_modules/@juspay/mystique-backend/src/android_views/ScrollView.js';
+	var _jsxFileName = '/Users/amit.rohan/Projects/resume/node_modules/@juspay/mystique-backend/src/android_views/ScrollView.js';
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -41684,7 +41684,7 @@
 
 	'use strict';
 	
-	var _jsxFileName = '/Users/amit.rohan/Projects/git-resume-prod/node_modules/@juspay/mystique-backend/src/android_views/ProgressBar.js';
+	var _jsxFileName = '/Users/amit.rohan/Projects/resume/node_modules/@juspay/mystique-backend/src/android_views/ProgressBar.js';
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -41736,7 +41736,7 @@
 
 	'use strict';
 	
-	var _jsxFileName = '/Users/amit.rohan/Projects/git-resume-prod/node_modules/@juspay/mystique-backend/src/android_views/FrameLayout.js';
+	var _jsxFileName = '/Users/amit.rohan/Projects/resume/node_modules/@juspay/mystique-backend/src/android_views/FrameLayout.js';
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -41795,7 +41795,7 @@
 
 	'use strict';
 	
-	var _jsxFileName = '/Users/amit.rohan/Projects/git-resume-prod/node_modules/@juspay/mystique-backend/src/android_views/CheckBox.js';
+	var _jsxFileName = '/Users/amit.rohan/Projects/resume/node_modules/@juspay/mystique-backend/src/android_views/CheckBox.js';
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -41847,7 +41847,7 @@
 
 	'use strict';
 	
-	var _jsxFileName = '/Users/amit.rohan/Projects/git-resume-prod/node_modules/@juspay/mystique-backend/src/android_views/Button.js';
+	var _jsxFileName = '/Users/amit.rohan/Projects/resume/node_modules/@juspay/mystique-backend/src/android_views/Button.js';
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -41899,7 +41899,7 @@
 
 	'use strict';
 	
-	var _jsxFileName = '/Users/amit.rohan/Projects/git-resume-prod/node_modules/@juspay/mystique-backend/src/android_views/EditText.js';
+	var _jsxFileName = '/Users/amit.rohan/Projects/resume/node_modules/@juspay/mystique-backend/src/android_views/EditText.js';
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -41954,7 +41954,7 @@
 
 	'use strict';
 	
-	var _jsxFileName = '/Users/amit.rohan/Projects/git-resume-prod/node_modules/@juspay/mystique-backend/src/android_views/ViewWidget.js';
+	var _jsxFileName = '/Users/amit.rohan/Projects/resume/node_modules/@juspay/mystique-backend/src/android_views/ViewWidget.js';
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -42013,7 +42013,7 @@
 
 	'use strict';
 	
-	var _jsxFileName = '/Users/amit.rohan/Projects/git-resume-prod/node_modules/@juspay/mystique-backend/src/android_views/TabLayout.js';
+	var _jsxFileName = '/Users/amit.rohan/Projects/resume/node_modules/@juspay/mystique-backend/src/android_views/TabLayout.js';
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -42072,7 +42072,7 @@
 
 	'use strict';
 	
-	var _jsxFileName = '/Users/amit.rohan/Projects/git-resume-prod/node_modules/@juspay/mystique-backend/src/android_views/ViewPager.js';
+	var _jsxFileName = '/Users/amit.rohan/Projects/resume/node_modules/@juspay/mystique-backend/src/android_views/ViewPager.js';
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -42131,7 +42131,7 @@
 
 	'use strict';
 	
-	var _jsxFileName = '/Users/amit.rohan/Projects/git-resume-prod/node_modules/@juspay/mystique-backend/src/android_views/Space.js';
+	var _jsxFileName = '/Users/amit.rohan/Projects/resume/node_modules/@juspay/mystique-backend/src/android_views/Space.js';
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -42189,7 +42189,7 @@
 
 	'use strict';
 	
-	var _jsxFileName = '/Users/amit.rohan/Projects/git-resume-prod/node_modules/@juspay/mystique-backend/src/android_views/Switch.js';
+	var _jsxFileName = '/Users/amit.rohan/Projects/resume/node_modules/@juspay/mystique-backend/src/android_views/Switch.js';
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -42241,7 +42241,7 @@
 
 	'use strict';
 	
-	var _jsxFileName = '/Users/amit.rohan/Projects/git-resume-prod/node_modules/@juspay/mystique-backend/src/android_views/CollapsingToolbarLayout.js';
+	var _jsxFileName = '/Users/amit.rohan/Projects/resume/node_modules/@juspay/mystique-backend/src/android_views/CollapsingToolbarLayout.js';
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -42300,7 +42300,7 @@
 
 	'use strict';
 	
-	var _jsxFileName = '/Users/amit.rohan/Projects/git-resume-prod/node_modules/@juspay/mystique-backend/src/android_views/AppBarLayout.js';
+	var _jsxFileName = '/Users/amit.rohan/Projects/resume/node_modules/@juspay/mystique-backend/src/android_views/AppBarLayout.js';
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -42359,7 +42359,7 @@
 
 	'use strict';
 	
-	var _jsxFileName = '/Users/amit.rohan/Projects/git-resume-prod/node_modules/@juspay/mystique-backend/src/android_views/CoordinatorLayout.js';
+	var _jsxFileName = '/Users/amit.rohan/Projects/resume/node_modules/@juspay/mystique-backend/src/android_views/CoordinatorLayout.js';
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -42418,7 +42418,7 @@
 
 	'use strict';
 	
-	var _jsxFileName = '/Users/amit.rohan/Projects/git-resume-prod/node_modules/@juspay/mystique-backend/src/android_views/ListView.js';
+	var _jsxFileName = '/Users/amit.rohan/Projects/resume/node_modules/@juspay/mystique-backend/src/android_views/ListView.js';
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -42471,7 +42471,7 @@
 
 	'use strict';
 	
-	var _jsxFileName = '/Users/amit.rohan/Projects/git-resume-prod/node_modules/@juspay/mystique-backend/src/android_views/RatingBar.js';
+	var _jsxFileName = '/Users/amit.rohan/Projects/resume/node_modules/@juspay/mystique-backend/src/android_views/RatingBar.js';
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -42523,7 +42523,7 @@
 
 	'use strict';
 	
-	var _jsxFileName = '/Users/amit.rohan/Projects/git-resume-prod/node_modules/@juspay/mystique-backend/src/android_views/RecyclerView.js';
+	var _jsxFileName = '/Users/amit.rohan/Projects/resume/node_modules/@juspay/mystique-backend/src/android_views/RecyclerView.js';
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -42595,7 +42595,7 @@
 
 	'use strict';
 	
-	var _jsxFileName = '/Users/amit.rohan/Projects/git-resume-prod/node_modules/@juspay/mystique-backend/src/ios_views/UIView.js';
+	var _jsxFileName = '/Users/amit.rohan/Projects/resume/node_modules/@juspay/mystique-backend/src/ios_views/UIView.js';
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -42727,7 +42727,7 @@
 
 	'use strict';
 	
-	var _jsxFileName = '/Users/amit.rohan/Projects/git-resume-prod/node_modules/@juspay/mystique-backend/src/ios_views/UIImageView.js';
+	var _jsxFileName = '/Users/amit.rohan/Projects/resume/node_modules/@juspay/mystique-backend/src/ios_views/UIImageView.js';
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -42805,7 +42805,7 @@
 
 	'use strict';
 	
-	var _jsxFileName = '/Users/amit.rohan/Projects/git-resume-prod/node_modules/@juspay/mystique-backend/src/ios_views/UILabel.js';
+	var _jsxFileName = '/Users/amit.rohan/Projects/resume/node_modules/@juspay/mystique-backend/src/ios_views/UILabel.js';
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -42889,7 +42889,7 @@
 
 	'use strict';
 	
-	var _jsxFileName = '/Users/amit.rohan/Projects/git-resume-prod/node_modules/@juspay/mystique-backend/src/ios_views/UISwitch.js';
+	var _jsxFileName = '/Users/amit.rohan/Projects/resume/node_modules/@juspay/mystique-backend/src/ios_views/UISwitch.js';
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -42967,7 +42967,7 @@
 
 	'use strict';
 	
-	var _jsxFileName = '/Users/amit.rohan/Projects/git-resume-prod/node_modules/@juspay/mystique-backend/src/ios_views/UITextView.js';
+	var _jsxFileName = '/Users/amit.rohan/Projects/resume/node_modules/@juspay/mystique-backend/src/ios_views/UITextView.js';
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -43047,7 +43047,7 @@
 
 	'use strict';
 	
-	var _jsxFileName = '/Users/amit.rohan/Projects/git-resume-prod/node_modules/@juspay/mystique-backend/src/ios_views/UIScrollView.js';
+	var _jsxFileName = '/Users/amit.rohan/Projects/resume/node_modules/@juspay/mystique-backend/src/ios_views/UIScrollView.js';
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -43131,7 +43131,7 @@
 
 	'use strict';
 	
-	var _jsxFileName = '/Users/amit.rohan/Projects/git-resume-prod/node_modules/@juspay/mystique-backend/src/ios_views/StackView.js';
+	var _jsxFileName = '/Users/amit.rohan/Projects/resume/node_modules/@juspay/mystique-backend/src/ios_views/StackView.js';
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -43310,7 +43310,7 @@
 
 	'use strict';
 	
-	var _jsxFileName = '/Users/amit.rohan/Projects/git-resume-prod/node_modules/@juspay/mystique-backend/src/ios_views/KAScrollView.js';
+	var _jsxFileName = '/Users/amit.rohan/Projects/resume/node_modules/@juspay/mystique-backend/src/ios_views/KAScrollView.js';
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -43394,7 +43394,7 @@
 
 	'use strict';
 	
-	var _jsxFileName = '/Users/amit.rohan/Projects/git-resume-prod/node_modules/@juspay/mystique-backend/src/ios_views/CollectionView.js';
+	var _jsxFileName = '/Users/amit.rohan/Projects/resume/node_modules/@juspay/mystique-backend/src/ios_views/CollectionView.js';
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -43528,7 +43528,7 @@
 
 	'use strict';
 	
-	var _jsxFileName = '/Users/amit.rohan/Projects/git-resume-prod/node_modules/@juspay/mystique-backend/src/ios_views/CustomTextField.js';
+	var _jsxFileName = '/Users/amit.rohan/Projects/resume/node_modules/@juspay/mystique-backend/src/ios_views/CustomTextField.js';
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -43661,7 +43661,7 @@
 
 	'use strict';
 	
-	var _jsxFileName = '/Users/amit.rohan/Projects/git-resume-prod/node_modules/@juspay/mystique-backend/src/ios_views/TableView.js';
+	var _jsxFileName = '/Users/amit.rohan/Projects/resume/node_modules/@juspay/mystique-backend/src/ios_views/TableView.js';
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -43838,7 +43838,7 @@
 
 	"use strict";
 	
-	var _jsxFileName = "/Users/amit.rohan/Projects/git-resume-prod/views/RootScreen.js";
+	var _jsxFileName = "/Users/amit.rohan/Projects/resume/views/RootScreen.js";
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -43892,7 +43892,7 @@
 	        id: _this.idSet.editor,
 	        visibility: "visible"
 	      });
-	      Android.runInUI(cmd, null, "65", "UsersamitrohanProjectsgitresumeprodviewsRootScreenjs");
+	      Android.runInUI(cmd, null, "65", "UsersamitrohanProjectsresumeviewsRootScreenjs");
 	    };
 	
 	    _this.hideEditor = function () {
@@ -43901,7 +43901,7 @@
 	        visibility: "gone"
 	      });
 	
-	      Android.runInUI(cmd, null, "74", "UsersamitrohanProjectsgitresumeprodviewsRootScreenjs");
+	      Android.runInUI(cmd, null, "74", "UsersamitrohanProjectsresumeviewsRootScreenjs");
 	    };
 	
 	    _this.afterRender = function () {
@@ -43918,7 +43918,7 @@
 	        id: _this.idSet.root,
 	        visibility: "gone"
 	      });
-	      Android.runInUI(cmd, null, "93", "UsersamitrohanProjectsgitresumeprodviewsRootScreenjs");
+	      Android.runInUI(cmd, null, "93", "UsersamitrohanProjectsresumeviewsRootScreenjs");
 	    };
 	
 	    _this.hideLoading = function () {
@@ -43930,7 +43930,7 @@
 	        id: _this.idSet.root,
 	        visibility: "visible"
 	      });
-	      Android.runInUI(cmd, null, "106", "UsersamitrohanProjectsgitresumeprodviewsRootScreenjs");
+	      Android.runInUI(cmd, null, "106", "UsersamitrohanProjectsresumeviewsRootScreenjs");
 	    };
 	
 	    _this.setIds(['root', 'editor', 'loadingContainer']);
@@ -43950,7 +43950,7 @@
 	    value: function setStatusBarColor(color) {
 	      var _color = "set_color=android.graphics.Color->parseColor:s_" + color + ";";
 	
-	      Android.runInUI("set_win=ctx->getWindow;get_win->addFlags:i_-2147483648;" + _color + "get_win->setStatusBarColor:get_color", null, "42", "UsersamitrohanProjectsgitresumeprodviewsRootScreenjs");
+	      Android.runInUI("set_win=ctx->getWindow;get_win->addFlags:i_-2147483648;" + _color + "get_win->setStatusBarColor:get_color", null, "42", "UsersamitrohanProjectsresumeviewsRootScreenjs");
 	    }
 	  }, {
 	    key: "render",
@@ -44517,7 +44517,7 @@
 
 	"use strict";
 	
-	var _jsxFileName = "/Users/amit.rohan/Projects/git-resume-prod/views/MyResumeScreen.js";
+	var _jsxFileName = "/Users/amit.rohan/Projects/resume/views/MyResumeScreen.js";
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -44563,7 +44563,7 @@
 	
 	    _this.onPop = function () {
 	      _this.setUpProps();
-	      Android.runInUI(_this.animateView(), 0, "43", "UsersamitrohanProjectsgitresumeprodviewsMyResumeScreenjs");
+	      Android.runInUI(_this.animateView(), 0, "43", "UsersamitrohanProjectsresumeviewsMyResumeScreenjs");
 	      //setTimeout(this.afterRender(),100);
 	    };
 	
@@ -44819,7 +44819,7 @@
 
 	"use strict";
 	
-	var _jsxFileName = "/Users/amit.rohan/Projects/git-resume-prod/components/MyResume/NameTile.js";
+	var _jsxFileName = "/Users/amit.rohan/Projects/resume/components/MyResume/NameTile.js";
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -44855,14 +44855,14 @@
 	      Android.runInUI(_this2.set({
 	        id: _this2.props.id,
 	        visibility: "visible"
-	      }), null, "34", "UsersamitrohanProjectsgitresumeprodcomponentsMyResumeNameTilejs");
+	      }), null, "34", "UsersamitrohanProjectsresumecomponentsMyResumeNameTilejs");
 	    };
 	
 	    _this2.hide = function () {
 	      Android.runInUI(_this2.set({
 	        id: _this2.props.id,
 	        visibility: "gone"
-	      }), null, "41", "UsersamitrohanProjectsgitresumeprodcomponentsMyResumeNameTilejs");
+	      }), null, "41", "UsersamitrohanProjectsresumecomponentsMyResumeNameTilejs");
 	    };
 	
 	    _this2.showDivider = function () {
@@ -45020,7 +45020,7 @@
 
 	"use strict";
 	
-	var _jsxFileName = "/Users/amit.rohan/Projects/git-resume-prod/components/MyResume/ObjectiveTile.js";
+	var _jsxFileName = "/Users/amit.rohan/Projects/resume/components/MyResume/ObjectiveTile.js";
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -45057,14 +45057,14 @@
 	      Android.runInUI(_this2.set({
 	        id: _this2.props.id,
 	        visibility: "visible"
-	      }), null, "35", "UsersamitrohanProjectsgitresumeprodcomponentsMyResumeObjectiveTilejs");
+	      }), null, "35", "UsersamitrohanProjectsresumecomponentsMyResumeObjectiveTilejs");
 	    };
 	
 	    _this2.hide = function () {
 	      Android.runInUI(_this2.set({
 	        id: _this2.props.id,
 	        visibility: "gone"
-	      }), null, "42", "UsersamitrohanProjectsgitresumeprodcomponentsMyResumeObjectiveTilejs");
+	      }), null, "42", "UsersamitrohanProjectsresumecomponentsMyResumeObjectiveTilejs");
 	    };
 	
 	    _this2.showDivider = function () {
@@ -45178,7 +45178,7 @@
 
 	"use strict";
 	
-	var _jsxFileName = "/Users/amit.rohan/Projects/git-resume-prod/components/MyResume/AboutMeTile.js";
+	var _jsxFileName = "/Users/amit.rohan/Projects/resume/components/MyResume/AboutMeTile.js";
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -45240,14 +45240,14 @@
 	      Android.runInUI(_this2.set({
 	        id: _this2.props.id,
 	        visibility: "visible"
-	      }), null, "62", "UsersamitrohanProjectsgitresumeprodcomponentsMyResumeAboutMeTilejs");
+	      }), null, "62", "UsersamitrohanProjectsresumecomponentsMyResumeAboutMeTilejs");
 	    };
 	
 	    _this2.hide = function () {
 	      Android.runInUI(_this2.set({
 	        id: _this2.props.id,
 	        visibility: "gone"
-	      }), null, "69", "UsersamitrohanProjectsgitresumeprodcomponentsMyResumeAboutMeTilejs");
+	      }), null, "69", "UsersamitrohanProjectsresumecomponentsMyResumeAboutMeTilejs");
 	    };
 	
 	    _this2.showDivider = function () {
@@ -45373,7 +45373,7 @@
 
 	"use strict";
 	
-	var _jsxFileName = "/Users/amit.rohan/Projects/git-resume-prod/components/MyResume/Helper/LabelWithDescription.js";
+	var _jsxFileName = "/Users/amit.rohan/Projects/resume/components/MyResume/Helper/LabelWithDescription.js";
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -45414,14 +45414,14 @@
 	      Android.runInUI(_this.set({
 	        id: _this.props.id,
 	        visibility: "visible"
-	      }), null, "39", "UsersamitrohanProjectsgitresumeprodcomponentsMyResumeHelperLabelWithDescriptionjs");
+	      }), null, "39", "UsersamitrohanProjectsresumecomponentsMyResumeHelperLabelWithDescriptionjs");
 	    };
 	
 	    _this.hide = function () {
 	      Android.runInUI(_this.set({
 	        id: _this.props.id,
 	        visibility: "gone"
-	      }), null, "46", "UsersamitrohanProjectsgitresumeprodcomponentsMyResumeHelperLabelWithDescriptionjs");
+	      }), null, "46", "UsersamitrohanProjectsresumecomponentsMyResumeHelperLabelWithDescriptionjs");
 	    };
 	
 	    _this.onRender = function () {
@@ -45500,7 +45500,7 @@
 
 	"use strict";
 	
-	var _jsxFileName = "/Users/amit.rohan/Projects/git-resume-prod/components/MyResume/EducationTile.js";
+	var _jsxFileName = "/Users/amit.rohan/Projects/resume/components/MyResume/EducationTile.js";
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -45562,14 +45562,14 @@
 	      Android.runInUI(_this2.set({
 	        id: _this2.props.id,
 	        visibility: "visible"
-	      }), null, "62", "UsersamitrohanProjectsgitresumeprodcomponentsMyResumeEducationTilejs");
+	      }), null, "62", "UsersamitrohanProjectsresumecomponentsMyResumeEducationTilejs");
 	    };
 	
 	    _this2.hide = function () {
 	      Android.runInUI(_this2.set({
 	        id: _this2.props.id,
 	        visibility: "gone"
-	      }), null, "69", "UsersamitrohanProjectsgitresumeprodcomponentsMyResumeEducationTilejs");
+	      }), null, "69", "UsersamitrohanProjectsresumecomponentsMyResumeEducationTilejs");
 	    };
 	
 	    _this2.showDivider = function () {
@@ -45697,7 +45697,7 @@
 
 	"use strict";
 	
-	var _jsxFileName = "/Users/amit.rohan/Projects/git-resume-prod/components/MyResume/Helper/DateWithContent.js";
+	var _jsxFileName = "/Users/amit.rohan/Projects/resume/components/MyResume/Helper/DateWithContent.js";
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -45743,14 +45743,14 @@
 	      Android.runInUI(_this.set({
 	        id: _this.props.id,
 	        visibility: "visible"
-	      }), null, "49", "UsersamitrohanProjectsgitresumeprodcomponentsMyResumeHelperDateWithContentjs");
+	      }), null, "49", "UsersamitrohanProjectsresumecomponentsMyResumeHelperDateWithContentjs");
 	    };
 	
 	    _this.hide = function () {
 	      Android.runInUI(_this.set({
 	        id: _this.props.id,
 	        visibility: "gone"
-	      }), null, "56", "UsersamitrohanProjectsgitresumeprodcomponentsMyResumeHelperDateWithContentjs");
+	      }), null, "56", "UsersamitrohanProjectsresumecomponentsMyResumeHelperDateWithContentjs");
 	    };
 	
 	    _this.isUrlValid = function (userInput) {
@@ -45942,7 +45942,7 @@
 
 	"use strict";
 	
-	var _jsxFileName = "/Users/amit.rohan/Projects/git-resume-prod/components/MyResume/PillsTile.js";
+	var _jsxFileName = "/Users/amit.rohan/Projects/resume/components/MyResume/PillsTile.js";
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -45984,14 +45984,14 @@
 	      Android.runInUI(_this2.set({
 	        id: _this2.props.id,
 	        visibility: "visible"
-	      }), null, "37", "UsersamitrohanProjectsgitresumeprodcomponentsMyResumePillsTilejs");
+	      }), null, "37", "UsersamitrohanProjectsresumecomponentsMyResumePillsTilejs");
 	    };
 	
 	    _this2.hide = function () {
 	      Android.runInUI(_this2.set({
 	        id: _this2.props.id,
 	        visibility: "gone"
-	      }), null, "44", "UsersamitrohanProjectsgitresumeprodcomponentsMyResumePillsTilejs");
+	      }), null, "44", "UsersamitrohanProjectsresumecomponentsMyResumePillsTilejs");
 	    };
 	
 	    _this2.showDivider = function () {
@@ -46115,7 +46115,7 @@
 
 	"use strict";
 	
-	var _jsxFileName = "/Users/amit.rohan/Projects/git-resume-prod/components/MyResume/Helper/Pills.js";
+	var _jsxFileName = "/Users/amit.rohan/Projects/resume/components/MyResume/Helper/Pills.js";
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -46160,14 +46160,14 @@
 	      Android.runInUI(_this.set({
 	        id: _this.props.id,
 	        visibility: "visible"
-	      }), null, "41", "UsersamitrohanProjectsgitresumeprodcomponentsMyResumeHelperPillsjs");
+	      }), null, "41", "UsersamitrohanProjectsresumecomponentsMyResumeHelperPillsjs");
 	    };
 	
 	    _this.hide = function () {
 	      Android.runInUI(_this.set({
 	        id: _this.props.id,
 	        visibility: "gone"
-	      }), null, "48", "UsersamitrohanProjectsgitresumeprodcomponentsMyResumeHelperPillsjs");
+	      }), null, "48", "UsersamitrohanProjectsresumecomponentsMyResumeHelperPillsjs");
 	    };
 	
 	    _this.onRender = function () {
@@ -46233,7 +46233,7 @@
 
 	"use strict";
 	
-	var _jsxFileName = "/Users/amit.rohan/Projects/git-resume-prod/components/MyResume/WorkExperienceTile.js";
+	var _jsxFileName = "/Users/amit.rohan/Projects/resume/components/MyResume/WorkExperienceTile.js";
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -46270,7 +46270,7 @@
 	        date: "June 2017 - Present",
 	        title: "Juspay (www.juspay.in)",
 	        subTitle: "Technical Analyst",
-	        description: "Working mainly as UI/UX & Framework developer at the client side. Worked on various internal projects and as one of the lead developers.\n Few of the projects worked on :\n· Diksha Android App\n· Payment SDK for FoodPanda\n· Payment SDK for OLA Postpaid"
+	        description: "Working as a UI/UX & Framework developer at the client side. Worked as lead developers in various internal projects.\n Few of my client projects are :\n· BHIM Android App\n· Diksha Android App\n· Payment SDK for FoodPanda, OLA, BigBasket"
 	      }, {
 	        date: "Jan - June of 2017",
 	        title: "Abyeti Technologies (www.abyeti.com)",
@@ -46313,14 +46313,14 @@
 	      Android.runInUI(_this2.set({
 	        id: _this2.props.id,
 	        visibility: "visible"
-	      }), null, "80", "UsersamitrohanProjectsgitresumeprodcomponentsMyResumeWorkExperienceTilejs");
+	      }), null, "80", "UsersamitrohanProjectsresumecomponentsMyResumeWorkExperienceTilejs");
 	    };
 	
 	    _this2.hide = function () {
 	      Android.runInUI(_this2.set({
 	        id: _this2.props.id,
 	        visibility: "gone"
-	      }), null, "87", "UsersamitrohanProjectsgitresumeprodcomponentsMyResumeWorkExperienceTilejs");
+	      }), null, "87", "UsersamitrohanProjectsresumecomponentsMyResumeWorkExperienceTilejs");
 	    };
 	
 	    _this2.showDivider = function () {
@@ -46449,7 +46449,7 @@
 
 	"use strict";
 	
-	var _jsxFileName = "/Users/amit.rohan/Projects/git-resume-prod/components/MyResume/ContactTile.js";
+	var _jsxFileName = "/Users/amit.rohan/Projects/resume/components/MyResume/ContactTile.js";
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -46510,14 +46510,14 @@
 	      Android.runInUI(_this2.set({
 	        id: _this2.props.id,
 	        visibility: "visible"
-	      }), null, "61", "UsersamitrohanProjectsgitresumeprodcomponentsMyResumeContactTilejs");
+	      }), null, "61", "UsersamitrohanProjectsresumecomponentsMyResumeContactTilejs");
 	    };
 	
 	    _this2.hide = function () {
 	      Android.runInUI(_this2.set({
 	        id: _this2.props.id,
 	        visibility: "gone"
-	      }), null, "68", "UsersamitrohanProjectsgitresumeprodcomponentsMyResumeContactTilejs");
+	      }), null, "68", "UsersamitrohanProjectsresumecomponentsMyResumeContactTilejs");
 	    };
 	
 	    _this2.showDivider = function () {
@@ -46644,7 +46644,7 @@
 
 	"use strict";
 	
-	var _jsxFileName = "/Users/amit.rohan/Projects/git-resume-prod/components/MyResume/Helper/IconWithLabel.js";
+	var _jsxFileName = "/Users/amit.rohan/Projects/resume/components/MyResume/Helper/IconWithLabel.js";
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -46690,14 +46690,14 @@
 	      Android.runInUI(_this.set({
 	        id: _this.props.id,
 	        visibility: "visible"
-	      }), null, "44", "UsersamitrohanProjectsgitresumeprodcomponentsMyResumeHelperIconWithLabeljs");
+	      }), null, "44", "UsersamitrohanProjectsresumecomponentsMyResumeHelperIconWithLabeljs");
 	    };
 	
 	    _this.hide = function () {
 	      Android.runInUI(_this.set({
 	        id: _this.props.id,
 	        visibility: "gone"
-	      }), null, "51", "UsersamitrohanProjectsgitresumeprodcomponentsMyResumeHelperIconWithLabeljs");
+	      }), null, "51", "UsersamitrohanProjectsresumecomponentsMyResumeHelperIconWithLabeljs");
 	    };
 	
 	    _this.openHyperLink = function () {
@@ -46803,7 +46803,7 @@
 
 	"use strict";
 	
-	var _jsxFileName = "/Users/amit.rohan/Projects/git-resume-prod/components/MyResume/PoweredBy.js";
+	var _jsxFileName = "/Users/amit.rohan/Projects/resume/components/MyResume/PoweredBy.js";
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -46841,14 +46841,14 @@
 	      Android.runInUI(_this2.set({
 	        id: _this2.props.id,
 	        visibility: "visible"
-	      }), null, "41", "UsersamitrohanProjectsgitresumeprodcomponentsMyResumePoweredByjs");
+	      }), null, "41", "UsersamitrohanProjectsresumecomponentsMyResumePoweredByjs");
 	    };
 	
 	    _this2.hide = function () {
 	      Android.runInUI(_this2.set({
 	        id: _this2.props.id,
 	        visibility: "gone"
-	      }), null, "48", "UsersamitrohanProjectsgitresumeprodcomponentsMyResumePoweredByjs");
+	      }), null, "48", "UsersamitrohanProjectsresumecomponentsMyResumePoweredByjs");
 	    };
 	
 	    _this2.showDivider = function () {
@@ -47063,7 +47063,7 @@
 
 	"use strict";
 	
-	var _jsxFileName = "/Users/amit.rohan/Projects/git-resume-prod/components/MyResume/ReferenceTile.js";
+	var _jsxFileName = "/Users/amit.rohan/Projects/resume/components/MyResume/ReferenceTile.js";
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -47100,14 +47100,14 @@
 	      Android.runInUI(_this2.set({
 	        id: _this2.props.id,
 	        visibility: "visible"
-	      }), null, "35", "UsersamitrohanProjectsgitresumeprodcomponentsMyResumeReferenceTilejs");
+	      }), null, "35", "UsersamitrohanProjectsresumecomponentsMyResumeReferenceTilejs");
 	    };
 	
 	    _this2.hide = function () {
 	      Android.runInUI(_this2.set({
 	        id: _this2.props.id,
 	        visibility: "gone"
-	      }), null, "42", "UsersamitrohanProjectsgitresumeprodcomponentsMyResumeReferenceTilejs");
+	      }), null, "42", "UsersamitrohanProjectsresumecomponentsMyResumeReferenceTilejs");
 	    };
 	
 	    _this2.showDivider = function () {
