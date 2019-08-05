@@ -32,10 +32,10 @@ class WorkExperienceTile extends View {
   
     this.content = [
       {
-        date : "June 2017 - Present",
+        date : "June 2017 - July 2019",
         title : "Juspay (www.juspay.in)",
         subTitle : "Technical Analyst",
-        description :"Working as a UI/UX & Framework developer at the client side. Worked as lead developers in various internal projects.\n Few of my client projects are :\n· BHIM Android App\n· Diksha Android App\n· Payment SDK for FoodPanda, OLA, BigBasket"   
+        description :"Worked as a UI/UX & Cross Platform Software Development Framework developer at the client side. Was working as one of the lead developers in various projects.\n Few of my client side projects are :\n·MYSTIQUE/DUI \n·PRESTO \n· BHIMUPI \n· Diksha Android App\n· Payment SDK for FoodPanda, OLA, BigBasket and Cred"   
       } , {
         date : "Jan - June of 2017",
         title : "Abyeti Technologies (www.abyeti.com)",
