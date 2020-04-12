@@ -124,7 +124,7 @@ class MyResumeScreen extends View {
             padding="20,10,20,10"
             width="match_parent"
             title="HANDS ON"
-            pillList={["FOODPANDA","OLA","DIKSHA","sRIG","Dextra"]}
+            pillList={["kruzr.co","Allie","FOODPANDA","OLA","DIKSHA","sRIG","Dextra"]}
             isNightMode={isNightMode}
           />
           <PillsTile
@@ -138,21 +138,21 @@ class MyResumeScreen extends View {
             padding="20,10,20,10"
             width="match_parent"
             title="FRAMEWORKS"
-            pillList={["Node.js",".Net","Mystique","Presto","BootStrap","Electon","AngularJS","Material-UI","React","Unity"]}
+            pillList={["Node.js",".Net","Mystique","Presto","BootStrap","Electon","AngularJS","React","Unity"]}
             isNightMode={isNightMode}
           />
           <PillsTile
             padding="20,10,20,10"
             width="match_parent"
             title="PLATFORMS"
-            pillList={["Android","Windows Mobile","Web","IOS","GIT"]}
+            pillList={["Android","Web","iOS","Windows Mobile"]}
             isNightMode={isNightMode}
           />
           <PillsTile
             padding="20,10,20,10"
             width="match_parent"
             title="SOFTWARES USED"
-            pillList={["Sketch","Flinto","Blender","Photoshop","Google Suite","Office 365"]}
+            pillList={["Wordpress","Hubspot","Sketch","Flinto","Blender","Photoshop","Google Suite","Office 365","Android Studio","xCode","VS Code","Websotrm","Atom","SublimeText"]}
             isNightMode={isNightMode}
           />
           <ContactTile
