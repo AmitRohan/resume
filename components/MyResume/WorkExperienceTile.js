@@ -32,6 +32,17 @@ class WorkExperienceTile extends View {
   
     this.content = [
       {
+        date : "August 2019 - Current",
+        title : "Kruzr (www.kruzr.co)",
+        subTitle : "Growth Enginner (Full Stack)",
+        description :"Working as a Full Stack developer and helping the company scale wherever possible. Have been providing my techinical expertise at all ends."
+                      + "\nFew of the areas where I am involved are:"
+                      + "\n\t· Managing company webiste (kruzr.co)."
+                      + "\n\t· Managing company blog (blog.kruzr.co)."
+                      + "\n\t· Android/iOS app (Allie)"
+                      + "\n\t· Managing product dashboard."
+                      
+      }, {
         date : "June 2017 - July 2019",
         title : "Juspay (www.juspay.in)",
         subTitle : "Technical Analyst",
