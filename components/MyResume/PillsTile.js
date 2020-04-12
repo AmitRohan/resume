@@ -116,6 +116,7 @@ class PillsTile extends View {
         width= {this.props.width || "match_parent" }
         background={this.props.toolbarBackground}
         padding={this.props.padding}
+        margin="0,20,0,20"
         height="wrap_content"
         orientation="vertical">
         {
