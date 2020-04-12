@@ -51,7 +51,7 @@
 /* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 	
 	var _ext = __webpack_require__(2);
 	
@@ -62,6 +62,13 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
+	
+	var firstLoad = localStorage.getItem('firstLoad');
+	console.log("Not your First Load ? ", firstLoad);
+	if (firstLoad == null || !firstLoad) {
+	  localStorage.setItem('firstLoad', true);
+	  location.reload();
+	}
 	
 	//OS - ANDROID,IOS,WEB
 	window.__OS = "WEB";
