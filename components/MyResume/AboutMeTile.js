@@ -43,16 +43,16 @@ class AboutMeTile extends View {
         description : "Indian"
       },{
         label : "Location",
-        description : "Audugodi, Koramangala, Bangaluru, Karnataka"
+        description : "Electronic City Ph 2, Bengaluru, Karnataka"
       },{
         label : "Experience",
-        description : "1.5 years"
+        description : "3+ years"
       },{
         label : "Availability",
         description : "Full Time Job"
       },{
         label : "Hobbies",
-        description : "Playing Computer Games, Tennis, Football, Keyboard, Guitar and Listening to Music"
+        description : "Computer Simulation, Lawn Tennis, Football, Keyboard, Guitar"
       }
 
     ]
