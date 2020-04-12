@@ -34,16 +34,31 @@ class EducationTile extends View {
   
     this.content = [
       {
+        date : "2013-2017",
+        title : "Bachelor of Technology in Coumputer Science Engineering",
+        subTitle : "Manipal University Jaipur",
+        description :"CGPA: 8.2"   
+      } , {
+        date : "2015-2016",
+        title : "EMC Accademic Associate",
+        subTitle : "Got certification in Cloud Infrastructure And Service",
+        description :"Succesfully completed the 6 month course held in college campus."   
+      }, {
         date : "2014-2015",
         title : "Microsoft Technical Associate",
         subTitle : "Got certification in C# and .Net Framework",
         description :"Succesfully completed the 6 month course held in college campus"   
       } , {
-        date : "2013-2017",
-        title : "Bachelor of Technology",
-        subTitle : "Manipal University Jaipur",
-        description :"CGPA: 8.2"   
+        date : "2014-2015",
+        title : "Hacking Essential Workshop",
+        subTitle : "Organised by EC Council",
+        description :"Succesfully completed the 48 hours hands on course held in college campus by the EC-Council."   
       } , {
+        date : "2013-2014",
+        title : "Arduino with Robotics - NRC",
+        subTitle : "Got certification in Arduino Programming",
+        description :"Succesfully completed the 72 hours hands on course held in college campus"   
+      }, {
         date : "2011-2013",
         title : "All India Senior School Certificate",
         subTitle : "Delhi Public School Gandhinagar",
