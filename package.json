@@ -11,7 +11,7 @@
     "remote": "sed -i.bak -e 's/localhost/moonshot.ap-south-1.elasticbeanstalk.com/g' $(grep -lor \".*localhost\" dist/* | grep -v socket | grep -v bak) && rm dist/*.bak"
   },
   "dependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.21.1",
     "bluebird": "^3.5.1",
     "bower": "^1.8.8",
     "date-fns": "^2.0.0-alpha.7",
