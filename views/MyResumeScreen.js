@@ -124,7 +124,7 @@ class MyResumeScreen extends View {
             padding="20,10,20,10"
             width="match_parent"
             title="HANDS ON"
-            pillList={["kruzr.co","Allie","FOODPANDA","OLA","DIKSHA","sRIG","Dextra"]}
+            pillList={["kruzr.co","Allie","CRED","FOODPANDA","OLA","DIKSHA","sRIG","Dextra"]}
             isNightMode={isNightMode}
           />
           <PillsTile
