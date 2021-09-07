@@ -46,7 +46,7 @@ class AboutMeTile extends View {
         description : "Electronic City Ph 2, Bengaluru, Karnataka"
       },{
         label : "Experience",
-        description : "3+ years"
+        description : "4+ years"
       },{
         label : "Availability",
         description : "Full Time Job"
